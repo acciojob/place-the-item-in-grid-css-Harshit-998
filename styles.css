@@ -1,2 +1,16 @@
-
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  padding: 20px;
+  background-color: black;
+  grid-template-columns: auto auto;
+  grid-row-gap: 10px;
+  justify-content: space-between;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  gap: 5px;
+  background-color: aqua;
+  /* justify-content: center; */
+}
